@@ -16,7 +16,7 @@ function greet (timeString){
  
   var splitTime = timeString.split(":");
 
-  newTimeString = splitTime[0]
+  newTimeString = splitTime[0];
 
   if (newTimeString < 12){
     return "Good Morning"
